@@ -5,7 +5,7 @@ import Nav from "./components/Nav";
 function App() {
   return (
     <>
-      <HashRouter basename="/">
+      <HashRouter>
         <Nav />
         <Routes>
           <Route path="/" element={<HomePage />} />
